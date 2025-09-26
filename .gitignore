@@ -1,0 +1,26 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data and big artifacts
+data/**
+!data/README.md
+
+experiments/**/models/
+experiments/**/checkpoints/
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.tar
+*.gz
+*.zip
+
+# Colab specifics
+/.config/
+/.gdrive/
+/content/
