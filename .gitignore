@@ -24,3 +24,7 @@ experiments/**/checkpoints/
 /.config/
 /.gdrive/
 /content/
+
+# data
+data/hymenoptera_data/
+*.zip
