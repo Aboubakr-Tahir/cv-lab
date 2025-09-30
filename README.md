@@ -33,6 +33,9 @@ cv-lab/
   Fine-tunes ResNet18 and tests feature extractor vs. full fine-tuning on ants/bees dataset.  
   Dataset: `data/get_hymenoptera.ps1` (Windows) or `data/get_hymenoptera.sh` (macOS/Linux).
 
+- `02_transfer_learning_dogs_cats.ipynb` (notebooks/)  
+  Fine-tunes ResNet18 on Dogs vs Cats (Kaggle). Goal: >95% val acc, W&B logging, Gradio demo.
+
 ## Datasets
 
 We don’t store raw data in Git. Use scripts in `data/` to fetch.
